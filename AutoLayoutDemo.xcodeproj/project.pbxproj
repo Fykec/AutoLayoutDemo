@@ -14,6 +14,18 @@
 		2C580EA91C15638700E0C3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C580EA71C15638700E0C3D3 /* Main.storyboard */; };
 		2C580EAB1C15638700E0C3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C580EAA1C15638700E0C3D3 /* Assets.xcassets */; };
 		2C580EAE1C15638700E0C3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C580EAC1C15638700E0C3D3 /* LaunchScreen.storyboard */; };
+		2C580EB61C1567D500E0C3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C580EB51C1567D500E0C3D3 /* UIKit.framework */; };
+		2C580EBA1C156D0700E0C3D3 /* NSLayoutConstraintDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EB91C156D0700E0C3D3 /* NSLayoutConstraintDemoView.m */; };
+		2C580EBD1C156E1400E0C3D3 /* MasonryDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EBC1C156E1400E0C3D3 /* MasonryDemoView.m */; };
+		2C580EC31C15789200E0C3D3 /* LayoutSubviewsDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EC21C15789200E0C3D3 /* LayoutSubviewsDemoView.m */; };
+		2C580EC61C15C98A00E0C3D3 /* VFLDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EC51C15C98A00E0C3D3 /* VFLDemoView.m */; };
+		2C580EC91C16D3C600E0C3D3 /* SnapKitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EC81C16D3C600E0C3D3 /* SnapKitDemoView.swift */; };
+		2C580ECC1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580ECB1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.m */; };
+		2C580ECF1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580ECE1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.m */; };
+		2C580ED21C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580ED11C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.m */; };
+		2C580ED81C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580ED71C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.m */; };
+		2C580EDB1C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C580EDA1C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.m */; };
+		3DE4A3DAF859FEE7CEB51EB2 /* Pods_AutoLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3F5060D0B13EF050A63923 /* Pods_AutoLayoutDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +41,30 @@
 		2C580EAA1C15638700E0C3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C580EAD1C15638700E0C3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C580EAF1C15638700E0C3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C580EB51C1567D500E0C3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C580EB81C156D0700E0C3D3 /* NSLayoutConstraintDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraintDemoView.h; sourceTree = "<group>"; };
+		2C580EB91C156D0700E0C3D3 /* NSLayoutConstraintDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintDemoView.m; sourceTree = "<group>"; };
+		2C580EBB1C156E1400E0C3D3 /* MasonryDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryDemoView.h; sourceTree = "<group>"; };
+		2C580EBC1C156E1400E0C3D3 /* MasonryDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryDemoView.m; sourceTree = "<group>"; };
+		2C580EC11C15789200E0C3D3 /* LayoutSubviewsDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutSubviewsDemoView.h; sourceTree = "<group>"; };
+		2C580EC21C15789200E0C3D3 /* LayoutSubviewsDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutSubviewsDemoView.m; sourceTree = "<group>"; };
+		2C580EC41C15C98A00E0C3D3 /* VFLDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLDemoView.h; sourceTree = "<group>"; };
+		2C580EC51C15C98A00E0C3D3 /* VFLDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLDemoView.m; sourceTree = "<group>"; };
+		2C580EC71C16D3C500E0C3D3 /* AutoLayoutDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C580EC81C16D3C600E0C3D3 /* SnapKitDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitDemoView.swift; sourceTree = "<group>"; };
+		2C580ECA1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryLinearLayoutDemoView.h; sourceTree = "<group>"; };
+		2C580ECB1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryLinearLayoutDemoView.m; sourceTree = "<group>"; };
+		2C580ECD1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryLayoutMarginsDemoView.h; sourceTree = "<group>"; };
+		2C580ECE1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryLayoutMarginsDemoView.m; sourceTree = "<group>"; };
+		2C580ED01C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryFrameLayoutDemoView.h; sourceTree = "<group>"; };
+		2C580ED11C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryFrameLayoutDemoView.m; sourceTree = "<group>"; };
+		2C580ED61C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryGridLayoutDemoView.h; sourceTree = "<group>"; };
+		2C580ED71C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryGridLayoutDemoView.m; sourceTree = "<group>"; };
+		2C580ED91C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryHorizontalLinearLayoutDemoView.h; sourceTree = "<group>"; };
+		2C580EDA1C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryHorizontalLinearLayoutDemoView.m; sourceTree = "<group>"; };
+		B0627E94D562B2070AC1F27C /* Pods-AutoLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BB3F5060D0B13EF050A63923 /* Pods_AutoLayoutDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10335A370B1D9176F82FA45 /* Pods-AutoLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C580EB61C1567D500E0C3D3 /* UIKit.framework in Frameworks */,
+				3DE4A3DAF859FEE7CEB51EB2 /* Pods_AutoLayoutDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +85,8 @@
 			children = (
 				2C580E9A1C15638700E0C3D3 /* AutoLayoutDemo */,
 				2C580E991C15638700E0C3D3 /* Products */,
+				D525013127C685A07E33E02E /* Pods */,
+				F6A3D9582107243DA60DFCF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,9 +107,11 @@
 				2C580EA21C15638700E0C3D3 /* MasterViewController.m */,
 				2C580EA41C15638700E0C3D3 /* DetailViewController.h */,
 				2C580EA51C15638700E0C3D3 /* DetailViewController.m */,
+				2C580EB71C156CCA00E0C3D3 /* View */,
 				2C580EA71C15638700E0C3D3 /* Main.storyboard */,
 				2C580EAA1C15638700E0C3D3 /* Assets.xcassets */,
 				2C580EAC1C15638700E0C3D3 /* LaunchScreen.storyboard */,
+				2C580EC71C16D3C500E0C3D3 /* AutoLayoutDemo-Bridging-Header.h */,
 				2C580EAF1C15638700E0C3D3 /* Info.plist */,
 				2C580E9B1C15638700E0C3D3 /* Supporting Files */,
 			);
@@ -84,6 +126,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2C580EB71C156CCA00E0C3D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C580EC11C15789200E0C3D3 /* LayoutSubviewsDemoView.h */,
+				2C580EC21C15789200E0C3D3 /* LayoutSubviewsDemoView.m */,
+				2C580EB81C156D0700E0C3D3 /* NSLayoutConstraintDemoView.h */,
+				2C580EB91C156D0700E0C3D3 /* NSLayoutConstraintDemoView.m */,
+				2C580EC41C15C98A00E0C3D3 /* VFLDemoView.h */,
+				2C580EC51C15C98A00E0C3D3 /* VFLDemoView.m */,
+				2C580EBB1C156E1400E0C3D3 /* MasonryDemoView.h */,
+				2C580EBC1C156E1400E0C3D3 /* MasonryDemoView.m */,
+				2C580ECD1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.h */,
+				2C580ECE1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.m */,
+				2C580ECA1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.h */,
+				2C580ECB1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.m */,
+				2C580ED91C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.h */,
+				2C580EDA1C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.m */,
+				2C580ED01C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.h */,
+				2C580ED11C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.m */,
+				2C580ED61C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.h */,
+				2C580ED71C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.m */,
+				2C580EC81C16D3C600E0C3D3 /* SnapKitDemoView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D525013127C685A07E33E02E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10335A370B1D9176F82FA45 /* Pods-AutoLayoutDemo.debug.xcconfig */,
+				B0627E94D562B2070AC1F27C /* Pods-AutoLayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6A3D9582107243DA60DFCF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C580EB51C1567D500E0C3D3 /* UIKit.framework */,
+				BB3F5060D0B13EF050A63923 /* Pods_AutoLayoutDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C580EB21C15638700E0C3D3 /* Build configuration list for PBXNativeTarget "AutoLayoutDemo" */;
 			buildPhases = (
+				A352F27F067814D766616840 /* Check Pods Manifest.lock */,
 				2C580E941C15638700E0C3D3 /* Sources */,
 				2C580E951C15638700E0C3D3 /* Frameworks */,
 				2C580E961C15638700E0C3D3 /* Resources */,
+				F73D8F6F1F2271D42A466F9C /* Embed Pods Frameworks */,
+				1023F8C2D82694A344DCE2E3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = JoyBB;
+				ORGANIZATIONNAME = Taijicoder;
 				TargetAttributes = {
 					2C580E971C15638700E0C3D3 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -149,14 +238,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1023F8C2D82694A344DCE2E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A352F27F067814D766616840 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F73D8F6F1F2271D42A466F9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C580E941C15638700E0C3D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C580EC91C16D3C600E0C3D3 /* SnapKitDemoView.swift in Sources */,
+				2C580ED21C18249C00E0C3D3 /* MasonryFrameLayoutDemoView.m in Sources */,
 				2C580EA01C15638700E0C3D3 /* AppDelegate.m in Sources */,
+				2C580EC31C15789200E0C3D3 /* LayoutSubviewsDemoView.m in Sources */,
+				2C580EDB1C19664100E0C3D3 /* MasonryHorizontalLinearLayoutDemoView.m in Sources */,
+				2C580EBD1C156E1400E0C3D3 /* MasonryDemoView.m in Sources */,
+				2C580ED81C182B0F00E0C3D3 /* MasonryGridLayoutDemoView.m in Sources */,
+				2C580ECC1C180DEC00E0C3D3 /* MasonryLinearLayoutDemoView.m in Sources */,
+				2C580ECF1C18179A00E0C3D3 /* MasonryLayoutMarginsDemoView.m in Sources */,
 				2C580EA31C15638700E0C3D3 /* MasterViewController.m in Sources */,
 				2C580E9D1C15638700E0C3D3 /* main.m in Sources */,
+				2C580EBA1C156D0700E0C3D3 /* NSLayoutConstraintDemoView.m in Sources */,
+				2C580EC61C15C98A00E0C3D3 /* VFLDemoView.m in Sources */,
 				2C580EA61C15638700E0C3D3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,23 +412,30 @@
 		};
 		2C580EB31C15638700E0C3D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10335A370B1D9176F82FA45 /* Pods-AutoLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joybb.AutoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taijicoder.AutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutDemo/AutoLayoutDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2C580EB41C15638700E0C3D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0627E94D562B2070AC1F27C /* Pods-AutoLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.joybb.AutoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taijicoder.AutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoLayoutDemo/AutoLayoutDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -304,6 +458,7 @@
 				2C580EB41C15638700E0C3D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
