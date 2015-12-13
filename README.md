@@ -572,7 +572,7 @@ view3.mas_makeConstraints { make in
 
 以下是我的博客，我会定期更新 iOS客户端 和 Hybird App开发相关文章。欢迎订阅！
 
-[一个热爱太极的程序员](http://www.taijicoder.com)
+[一个热爱太极的程序员](http://fykec.github.io/)
 
 另外，如果发现本文中有任何谬误，请联系我yinjiaji110@gmail.com，我会及时更正。 谢谢！
 
