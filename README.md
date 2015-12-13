@@ -1,7 +1,5 @@
 #iOS Layout 技术回顾及 Masonry 介绍
 
----
-
 作为一名iOS 开发者，大家都知道UIKit默认是MVC 架构的，Model，View，和Controller 。随着这几年App开发的普及，这三部分所使用的技术都越来越成熟。比如 Model 现在有很多 JSON-binding 像 Mantle，JSONModel；Controller所代表的控制层也出现很多思潮像MVVM，MV；，对于View，现在出来的UI控件更是数不胜数，让人眼花缭乱。在那么多变化中，有没有一些东西是始终不变的呢？是有的，有些核心的思想是一直没有变的，比如今天我们要谈的Layout技术。
 
 Layout 是大家经常接触，但却很少去关注的话题。因为用起来太简单了，都是改大小，改位置。没觉得需要再做些什么了。 
